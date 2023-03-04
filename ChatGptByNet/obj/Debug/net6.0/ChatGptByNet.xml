@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatGptByNet</name>
+    </assembly>
+    <members>
+        <member name="M:ChatGptByNet.Controllers.ChatGptController.Get(System.String)">
+            <summary>
+            普通GPT3.0
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatGptByNet.Controllers.ChatGptController.GetByChatGpt(System.String)">
+            <summary>
+            Chat Gpt 3.5
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatGptByNet.Helper.EncryptAndDecryptHelper.EncryptString(System.String,System.String)">
+            <summary>
+            加密字符串
+            </summary>
+            <param name="plainText"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatGptByNet.Helper.EncryptAndDecryptHelper.DecryptString(System.String,System.String)">
+            <summary>
+            解密字符串
+            </summary>
+            <param name="cipherText"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
