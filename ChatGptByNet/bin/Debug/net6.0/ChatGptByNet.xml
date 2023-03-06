@@ -18,6 +18,13 @@
             <param name="text"></param>
             <returns></returns>
         </member>
+        <member name="M:ChatGptByNet.Controllers.UserController.Login(ChatGptByNet.Models.UserModel)">
+            <summary>
+            登录后更新最后更新时间来保证token时效性
+            </summary>
+            <param name="userModel"></param>
+            <returns></returns>
+        </member>
         <member name="M:ChatGptByNet.Helper.EncryptAndDecryptHelper.EncryptString(System.String,System.String)">
             <summary>
             加密字符串

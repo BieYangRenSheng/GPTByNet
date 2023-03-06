@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\ChatGptByNet.csproj": {}
+    "C:\\Code\\GPTByNet\\ChatGptByNet\\ChatGptByNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\ChatGptByNet.csproj": {
+    "C:\\Code\\GPTByNet\\ChatGptByNet\\ChatGptByNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\ChatGptByNet.csproj",
+        "projectUniqueName": "C:\\Code\\GPTByNet\\ChatGptByNet\\ChatGptByNet.csproj",
         "projectName": "ChatGptByNet",
-        "projectPath": "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\ChatGptByNet.csproj",
+        "projectPath": "C:\\Code\\GPTByNet\\ChatGptByNet\\ChatGptByNet.csproj",
         "packagesPath": "C:\\Users\\haixiao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\obj\\",
+        "outputPath": "C:\\Code\\GPTByNet\\ChatGptByNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

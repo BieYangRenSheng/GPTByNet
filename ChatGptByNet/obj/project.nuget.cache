@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ezlB2gbp+09EeTzB0KuO/o1TmL/Ofeher7Tb3Iau6Jk2gzIvzVD8Lm2jdFh05jk5KosuqBsYrYPItTiTeHPLxg==",
+  "dgSpecHash": "VQ1v6fYJ6FCBkAANEhjTBjuQUi39/7tqsoKRnkV5dQ/UmDiT82LCh4tYUYqSf+mZlu4ff3jjKM+Muc0nq3bUzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\haixiao\\OneDrive\\桌面\\ChatGptByNet\\ChatGptByNet\\ChatGptByNet.csproj",
+  "projectFilePath": "C:\\Code\\GPTByNet\\ChatGptByNet\\ChatGptByNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haixiao\\.nuget\\packages\\betalgo.openai.gpt3\\6.7.0\\betalgo.openai.gpt3.6.7.0.nupkg.sha512",
     "C:\\Users\\haixiao\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",

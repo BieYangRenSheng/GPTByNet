@@ -53,7 +53,7 @@ namespace ChatGptByNet.Controllers
                 return BadRequest("用户信息不能为空");
 
             userModel.PassWord = MD5Helper.CreateMD5(userModel.PassWord);
-            var user = _chatGptDbContext.UserModels.Where(x => x.Email == userModel.Email ).FirstOrDefault();
+            var user = _chatGptDbContext.UserModels.Where(x => x.Email == userModel.Email && x.PassWord == userModel.PassWord).FirstOrDefault();
 
             if(user == null)
                 return BadRequest("用户名或者密码错误");
@@ -63,7 +63,8 @@ namespace ChatGptByNet.Controllers
 
             if(user.Status == 1)
             {
-                var token = EncryptAndDecryptHelper.EncryptString(user.Email, "abddccaaxxmmnnqqoowwdd");
+                Console.Write(DateTime.UtcNow.ToString("yyyy-mm-dd hh:mm:ss"));
+                var token = EncryptAndDecryptHelper.EncryptString(user.Email+"&&"+DateTime.Now.ToString(), "abddccaaxxmmnnqqoowwdd");
                 return Ok(token);
             }
             else
